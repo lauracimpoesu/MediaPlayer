@@ -1,0 +1,13 @@
+{
+    "audio":[
+        {"title":"Sunroof","file":"dalex.mp3"},
+        {"title":"Perfume", "file":"dalexP.mp3"},
+        {"title":"Count My Blessings", "file":"enisa.mp3"}
+    ],
+    "video":[
+        {"title":"Swiss lake","file":"ch1.mp4"},
+        {"title":"Swiss mountains", "file":"ch2.mp4"},
+        {"title":"Swiss boat", "file":"ch3.mp4"}
+    ]
+}
+
