@@ -1,130 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
 
 body {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .bg {
-    background-image: url('https://images.unsplash.com/photo-1586672806791-3a67d24186c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    width: 102%;
-    height: 20%;
-    z-index: -1;
-   filter: blur(8px);
-    -webkit-filter: blur(10px); 
+  background-image: url("https://images.unsplash.com/photo-1586672806791-3a67d24186c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 102%;
+  height: 20%;
+  z-index: -1;
+  filter: blur(8px);
+  -webkit-filter: blur(10px);
 }
 .myh1 {
-    font-family: 'Krona One', sans-serif;
-    color: rgb(255, 255, 255);
-    letter-spacing: 35px;
-    margin-bottom: 23px;
-    text-shadow: 1px 1px 20px black;  
+  font-family: "Krona One", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 35px;
+  margin-bottom: 23px;
+  text-shadow: 1px 1px 20px black;
 }
 #myh1 {
-    font-family: 'Prompt', sans-serif;
-    color: black;
-    text-shadow: 2px 2px 20px rgb(255, 244, 244); 
+  font-family: "Prompt", sans-serif;
+  color: black;
+  text-shadow: 2px 2px 20px rgb(255, 244, 244);
 }
 h3 {
-    margin-left: 38px;
-    padding-top: 20px;
-    font-family: 'Pinyon Script', cursive;
-    color: #01A199;
-    text-shadow: 1px 1px 2px #FB5649;  
-    letter-spacing: 2px;
+  margin-left: 38px;
+  padding-top: 20px;
+  font-family: "Pinyon Script", cursive;
+  color: #01a199;
+  text-shadow: 1px 1px 2px #fb5649;
+  letter-spacing: 2px;
 }
 audio {
-    width: 400px;
-    height: 70px;
+  width: 400px;
+  height: 70px;
 }
 button.btn {
-    margin-top: 10px;
-    margin-left: 45px;
-    background-color: #01A199;
-    color: white;
-    font-family: 'Prompt', sans-serif;
-    font-size: 13px;
+  margin-top: 10px;
+  margin-left: 45px;
+  background-color: #01a199;
+  color: white;
+  font-family: "Prompt", sans-serif;
+  font-size: 13px;
 }
- button.btn:hover {
-    background-color: #FB5649;
-    color: white;
-} 
+button.btn:hover {
+  background-color: #fb5649;
+  color: white;
+}
 li {
-    margin-bottom: 5px;
-    cursor: crosshair;
-    font-family: 'Krona One', sans-serif;
-    font-size: 12px;
+  margin-bottom: 5px;
+  cursor: crosshair;
+  font-family: "Krona One", sans-serif;
+  font-size: 12px;
 }
 li:hover {
-    margin-bottom: 5px;
-    cursor: crosshair;
-    font-family: 'Krona One', sans-serif;
-    font-size: 12px;
-    background-color: #04b3aa;
-    font-size: 13px;
-    position: relative;
-    z-index: 0;
-    transform: scaleY(1.2);
+  margin-bottom: 5px;
+  cursor: crosshair;
+  font-family: "Krona One", sans-serif;
+  font-size: 12px;
+  background-color: #04b3aa;
+  font-size: 13px;
+  position: relative;
+  z-index: 0;
+  transform: scaleY(1.2);
 }
 li#firstList {
-    margin-top: 10px;
-    width: 25rem;
-    color: rgb(44, 44, 44);
+  margin-top: 10px;
+  width: 25rem;
+  color: rgb(44, 44, 44);
 }
 li#secondList {
-    width: 28rem;
-    color: rgb(44, 44, 44);
-} 
-
+  width: 28rem;
+  color: rgb(44, 44, 44);
+}
 
 #vidBtn {
-    background-color: #ff8e86;
-    width: 345px;
-    height: 40px;
-    margin-bottom: 20px;
-    border-radius: 50px;
-    opacity: 0.9;
-    color: white;
+  background-color: #ff8e86;
+  width: 345px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  opacity: 0.9;
+  color: white;
 }
 
 #audioBtn {
-    background-color: #ff8e86;
-    width: 400px;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 50px;
-    opacity: 0.9;
-    color: white;
-    margin-bottom: 10px;
+  background-color: #ff8e86;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50px;
+  opacity: 0.9;
+  color: white;
+  margin-bottom: 10px;
 }
 
 #vidBtn:hover {
-    background-color: #ff3b2d;
-    width: 345px;
-    height: 40px;
-    margin-bottom: 20px;
-    border-radius: 50px;
-    opacity: 0.9;
-    color: white;
+  background-color: #ff3b2d;
+  width: 345px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  opacity: 0.9;
+  color: white;
 }
 
 #audioBtn:hover {
-    background-color: #ff3b2d;
-    width: 400px;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 50px;
-    opacity: 0.9;
-    color: white;
-    margin-bottom: 10px;
+  background-color: #ff3b2d;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50px;
+  opacity: 0.9;
+  color: white;
+  margin-bottom: 10px;
 }
-
